@@ -1,6 +1,8 @@
 # iptables
 
-<code>
+   ```shell
+
+
 iptables -L
 
 iptables -P INPUT DROP
@@ -39,4 +41,4 @@ iptables-save > /etc/iptables/rules.v4
 apt install iptables-persistent
 
 iptables -L
-</code>
+   ```
